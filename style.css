@@ -11,7 +11,7 @@
 }
 
 .ground{
-	background: brown;
+	background: url(bottom-background.png);
 	width: 500px;
 	height: 150px;
 	position: absolute;
@@ -24,13 +24,13 @@
 	background: yellow;
 }
 .obstacle{
-	background: green;
+	background: url(./flappybird-pipe.png);
 	width: 60px;
 	height: 300px;
 	position: absolute;
 }
 .topObstacle{ 
-	background: green;
+	background: url(./flappybird-pipe.png);
 	transform: rotate(180deg);
 	width: 60px;
 	height: 300px;

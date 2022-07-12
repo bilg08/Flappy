@@ -25,7 +25,7 @@
 	 	let birdBottom=100;
 	 	let gravity=2;
 	 	let isGameOver=false;
-	 	let gap=600;
+	 	let gap=450;
 
 	 	function startGame(){
 	 		birdBottom-=gravity;
@@ -93,6 +93,7 @@
            function gameOver(){
            	clearInterval(timerId1);
            	isGameOver=true;
+           	location.reload();
            	document.removeEventListener("keyup",control);
            }
 
